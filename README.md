@@ -7,6 +7,8 @@ Welcome to the Disland issue tracker! Here you can report bugs and request featu
 
 (Currently since you do not have access to Disland, this is purely for requesting features)
 
+(We do not expect any pull requests for this repo, since It's purely for reporting bugs and requesting features)
+
 ### RULES
 
 At the moment, there is no Community Guidelines, Terms Of Serivce or Privacy Policy (all that legal stuff)
