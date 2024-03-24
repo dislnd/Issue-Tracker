@@ -1,0 +1,31 @@
+name: Report a Bug🐛
+description: Report a bug so that we can Improve :)
+title: '[Bug]: '
+labels:
+  - Bug
+body:
+  - type: textarea
+    id: info
+    attributes:
+      label: Information
+      description: >-
+        We need some information before, You can copy & paste this from within
+        Disland.
+      placeholder: User Id, import.meta, etc, etc
+    validations:
+      required: true
+  - type: checkboxes
+    id: maybe_duplicate
+    attributes:
+      label: Before you submit!
+      description: We wanna know somethings.
+      options:
+        - label: Have you checked for other duplicate issues?
+          required: true
+        - label: Have you read the rules?
+          required: true
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)
