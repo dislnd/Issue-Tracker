@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/orgs/dislnd/discussions
     about: Please ask and answer questions here.
   - name: Vulnerability Reporting
-    url: mailto:dislandapp@googlegroups.com
-    about: Please email security vulnerabilities to dislandapp@googlegroups.com
+    url: https://github.com/dislnd/Issue-Tracker/blob/master/VULNERABILITY.md
+    about: Read VULNERABILITY.md
