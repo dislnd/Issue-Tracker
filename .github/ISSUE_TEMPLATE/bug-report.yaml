@@ -16,10 +16,9 @@ body:
   - type: textarea
     id: info
     attributes:
-      label: Information
+      label: Info String
       description: >-
-        We need some information before, You can copy & paste this from within
-        Disland.
+        We need some information before, Please copy & paste your info string from Disland. (Your info string does not contain sensitive information)
       placeholder: User Id, import.meta, etc, etc
     validations:
       required: true
