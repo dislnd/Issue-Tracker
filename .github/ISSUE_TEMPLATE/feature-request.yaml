@@ -1,0 +1,23 @@
+name: Feature Request
+description: Request a missing feature
+title: '[Feature]: '
+labels:
+  - Enhancement
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain what you want to be added. You can go in depth If you'd like :)
+    validations:
+      required: true
+  - type: checkboxes
+    id: before_submit
+    attributes:
+      label: Before you submit!
+      description: We wanna know somethings.
+      options:
+        - label: ' Have you checked for other duplicate issues?'
+          required: true
+        - label: ' Have you read the rules?'
+          required: true
