@@ -5,6 +5,15 @@ labels:
   - Bug
 body:
   - type: textarea
+    id: what_is_the_bug
+    attributes:
+      label: What is the bug?
+      description: >-
+        Please provide steps on how we can reproduce the bug, you may also
+        provide screenshots
+    validations:
+      required: true
+  - type: textarea
     id: info
     attributes:
       label: Information
